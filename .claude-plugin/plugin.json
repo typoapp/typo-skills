@@ -1,0 +1,12 @@
+{
+  "name": "claude-daily-standup",
+  "description": "Generate a daily standup summary from your last 24 hours of git activity",
+  "version": "1.0.0",
+  "author": {
+    "name": "Prateek",
+    "username": "prateek-typoapp"
+  },
+  "homepage": "https://github.com/typoapp/claude-daily-standup",
+  "repository": "https://github.com/typoapp/claude-daily-standup",
+  "license": "MIT"
+}
