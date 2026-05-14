@@ -1,0 +1,29 @@
+.claude-plugin/plugin.json
+  h_82f4b64c8f1064 7
+  s_f450baef6bdd3f::t_6f355b780a52fc 1-6,8-12
+README.md
+  s_f450baef6bdd3f::t_8edecb80f2181f 2-39
+skills/standup/SKILL.md
+  s_f450baef6bdd3f::t_8904b77ee903fa 1-40
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.8",
+  "base_commit_sha": "60365681e8989ceca914d937f8467bd50d5abe06",
+  "prompts": {},
+  "humans": {
+    "h_82f4b64c8f1064": {
+      "author": "Prateek <prateek@typoapp.io>"
+    }
+  },
+  "sessions": {
+    "s_f450baef6bdd3f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5afa0a45-b7d4-475e-914a-cbae1dceda29",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Prateek <prateek@typoapp.io>"
+    }
+  }
+}
