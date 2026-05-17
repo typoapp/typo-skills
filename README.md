@@ -1,38 +1,38 @@
-# claude-daily-standup
+# typo-skills
 
-A Claude Code plugin that generates a concise daily standup summary from your last 24 hours of git activity. It reads your commit history and changed files, then synthesizes them into a plain-English **Done / In Progress / Blocked** update — so you spend less time writing standups and more time shipping.
+A collection of Claude Code plugins built by [Typo](https://github.com/typoapp). Install any plugin individually or browse the collection to find skills that fit your workflow.
 
-## Installation
+## Plugins
 
-```
-/plugin install github:typoapp/claude-daily-standup
-```
+| Plugin | Description | Install |
+|--------|-------------|---------|
+| [daily-standup](plugins/daily-standup/) | Generate a daily standup summary from the last 24 hours of git activity | `/plugin install github:typoapp/typo-skills?path=plugins/daily-standup` |
+| [code-optimise](plugins/code-optimise/) | Optimise unstaged hand-written code for clarity and performance without changing behaviour | `/plugin install github:typoapp/typo-skills?path=plugins/code-optimise` |
 
 ## Usage
 
-Run inside any git repository:
+Each plugin is independently installable. Navigate to a plugin's directory for its own README and usage instructions.
+
+**Quick example — daily standup:**
 
 ```
+/plugin install github:typoapp/typo-skills?path=plugins/daily-standup
 /claude-daily-standup:standup
-```
-
-To use a custom time window instead of the default 24 hours:
-
-```
 /claude-daily-standup:standup 48h
-/claude-daily-standup:standup 2d
 ```
 
-You can also pass free-text context to narrow the scope:
+## Contributing
+
+Each plugin lives in `plugins/<name>/` and follows the standard Claude Code plugin layout:
 
 ```
-/claude-daily-standup:standup focus on backend only
+plugins/<name>/
+├── .claude-plugin/
+│   └── plugin.json
+└── skills/
+    └── <skill-name>/
+        └── SKILL.md
 ```
-
-## Requirements
-
-- Must be run inside a git repository
-- Claude Code CLI installed and authenticated
 
 ## License
 
