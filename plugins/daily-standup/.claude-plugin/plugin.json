@@ -6,7 +6,7 @@
     "name": "Prateek",
     "username": "prateek-typoapp"
   },
-  "homepage": "https://github.com/typoapp/claude-daily-standup",
-  "repository": "https://github.com/typoapp/claude-daily-standup",
+  "homepage": "https://github.com/typoapp/typo-skills/tree/master/plugins/daily-standup",
+  "repository": "https://github.com/typoapp/typo-skills",
   "license": "MIT"
 }
