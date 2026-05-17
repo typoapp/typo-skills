@@ -1,0 +1,12 @@
+{
+  "name": "code-optimise",
+  "description": "Optimise unstaged hand-written code for clarity, performance, and conciseness — without changing behaviour",
+  "version": "1.0.0",
+  "author": {
+    "name": "Prateek",
+    "username": "prateek-typoapp"
+  },
+  "homepage": "https://github.com/typoapp/typo-skills/tree/master/plugins/code-optimise",
+  "repository": "https://github.com/typoapp/typo-skills",
+  "license": "MIT"
+}
