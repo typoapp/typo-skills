@@ -1,0 +1,21 @@
+plugins/code-optimise/.claude-plugin/plugin.json
+  s_f450baef6bdd3f::t_90e170b57c6226 1-12
+plugins/code-optimise/skills/optimise/SKILL.md
+  s_f450baef6bdd3f::t_496e08a0412491 1-74
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.8",
+  "base_commit_sha": "d55570f0cd05333a9b905b81668dcf16855cf733",
+  "prompts": {},
+  "sessions": {
+    "s_f450baef6bdd3f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5afa0a45-b7d4-475e-914a-cbae1dceda29",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Prateek <prateek@typoapp.io>"
+    }
+  }
+}
