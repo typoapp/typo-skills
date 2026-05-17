@@ -1,0 +1,19 @@
+plugins/daily-standup/.claude-plugin/plugin.json
+  s_f450baef6bdd3f::t_5faafeade3068c 9-10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.8",
+  "base_commit_sha": "cf4a27efc31475921ed05b1df96ca56ec283957b",
+  "prompts": {},
+  "sessions": {
+    "s_f450baef6bdd3f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5afa0a45-b7d4-475e-914a-cbae1dceda29",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Prateek <prateek@typoapp.io>"
+    }
+  }
+}
